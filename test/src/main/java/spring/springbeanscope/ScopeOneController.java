@@ -5,8 +5,8 @@
 //import org.springframework.web.bind.annotation.RestController;
 //
 //@RestController
-//@RequestMapping("/scopes")
-//public class ScopeController {
+//@RequestMapping("/scopesOne")
+//public class ScopeOneController {
 //
 //    @Autowired
 //    SingleBean singleBean;
@@ -18,14 +18,14 @@
 //    public String single() {
 //        System.out.println("single => Singleton : " + singleBean.getName());
 //        System.out.println("single => Prototype : " + protoBean.getName());
-//        return "singleton";
+//        return singleBean.toString();
 //    }
 //
 //    @RequestMapping("/proto")
 //    public String proto() {
 //        System.out.println("proto => Singleton : " + singleBean.getName());
 //        System.out.println("proto => Prototype : " + protoBean.getName());
-//        return "prototype";
+//        return protoBean.toString();
 //    }
 //
 //}
